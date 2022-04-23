@@ -42,7 +42,7 @@ test("Gets player's health value", () => {
   );
 });
 
-test("Check if player is alive or not", () => {
+test("Checks if player is alive or not", () => {
   const player = new Player("Dave");
 
   expect(player.isAlive()).toBeTruthy();
